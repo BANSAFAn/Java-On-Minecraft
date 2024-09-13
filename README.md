@@ -24,3 +24,9 @@ This compilation provides easy access to various Java versions, helping you:
 ---
 
 **Note**: Always ensure you download Java from trusted sources to maintain security.
+
+
+Java - 8
+Java - 16
+Java - 17
+Java - 21
