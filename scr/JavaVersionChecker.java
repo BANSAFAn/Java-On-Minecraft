@@ -10,6 +10,7 @@ import java.util.Map;
 
 public class JavaVersionChecker {
     private static final Map<String, String> SITES = new HashMap<>();
+    
     static {
         SITES.put("Adoptium", "https://adoptium.net/temurin/releases/?version=17");
         SITES.put("Oracle", "https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html");
@@ -39,19 +40,27 @@ public class JavaVersionChecker {
         switch (provider) {
             case "Adoptium":
                 Elements releases = doc.select(".release-versions");
-                version = releases.first().text();
+                if (!releases.isEmpty()) {
+                    version = releases.first().text();
+                }
                 break;
             case "Oracle":
                 Elements links = doc.select("a:contains(jdk-17)");
-                version = links.first().text().split(" ")[0];
+                if (!links.isEmpty()) {
+                    version = links.first().text().split(" ")[0];
+                }
                 break;
             case "Amazon Corretto":
                 Elements rows = doc.select("table tr");
-                version = rows.get(1).select("td").get(0).text();
+                if (rows.size() > 1) {
+                    version = rows.get(1).select("td").get(0).text();
+                }
                 break;
             case "Azul Zulu":
                 Elements versions = doc.select(".version-string");
-                version = versions.first().text();
+                if (!versions.isEmpty()) {
+                    version = versions.first().text();
+                }
                 break;
             case "Red Hat OpenJDK":
             case "Microsoft OpenJDK":
@@ -67,7 +76,6 @@ public class JavaVersionChecker {
         connection.setRequestMethod("HEAD");
         long lastModified = connection.getLastModified();
         connection.disconnect();
-
 
         System.out.println("Last modified: " + new java.util.Date(lastModified));
 

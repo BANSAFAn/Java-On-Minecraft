@@ -2,6 +2,9 @@
 
 <kbd>[<img title="Ukraine" alt="Ukraine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1280px-Flag_of_Ukraine.svg.png" width="22">](README/README.ua.md)</kbd>
 <kbd>[<img title="Russia" alt="Russia" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/1280px-Flag_of_Russia.svg.png" width="22">](README/README.ru.md)</kbd>
+<kbd>[<img title="Germany" alt="Germany" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/640px-Flag_of_Germany.svg.png" width="22">](README/README.de.md)</kbd>
+<kbd>[<img title="China" alt="China" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/800px-Flag_of_the_People%27s_Republic_of_China.svg.png" width="22">](README/README.zh.md)</kbd>
+<kbd>[<img title="Poland" alt="Poland" src="https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg" width="22">](README/README.pl.md)</kbd>
 
 Java is an essential component for running Minecraft, especially for older versions and modded gameplay. This guide will help you find the right Java version for your Minecraft experience.
 
