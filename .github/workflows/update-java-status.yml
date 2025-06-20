@@ -21,13 +21,11 @@ jobs:
           
       - name: Install dependencies
         run: |
-          cd scr
           mvn install -DskipTests
           
       - name: Run Java Version Checker
         run: |
           cd scr
-          mvn package
           java -jar target/java-version-checker-jar-with-dependencies.jar > ../java_status.json
           
       - name: Update README files
