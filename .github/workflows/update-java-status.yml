@@ -1,0 +1,44 @@
+name: Update Java Download Status
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: maven
+          
+      - name: Install dependencies
+        run: |
+          cd scr
+          mvn install -DskipTests
+          
+      - name: Run Java Version Checker
+        run: |
+          cd scr
+          mvn package
+          java -jar target/java-version-checker-jar-with-dependencies.jar > ../java_status.json
+          
+      - name: Update README files
+        run: |
+          cd scr
+          java -jar target/readme-updater-jar-with-dependencies.jar
+          
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update Java download status"
+          git push
