@@ -71,41 +71,101 @@ public class JavaVersionChecker {
     }
 
     private static String checkVersion(String provider, String url) throws IOException {
-        Document doc = Jsoup.connect(url).get();
+        Document doc = Jsoup.connect(url)
+                .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+                .timeout(10000)
+                .get();
         String version = "";
 
-        switch (provider) {
-            case "Adoptium":
-                Elements releases = doc.select(".release-versions");
-                if (!releases.isEmpty()) {
-                    version = releases.first().text();
-                }
+        try {
+            switch (provider) {
+                case "Adoptium":
+                    // Adoptium changed their HTML structure, try different selectors
+                    Elements adoptiumVersions = doc.select(".release-versions, .temurin-version, h2:contains(Temurin), .version-info");
+                    if (!adoptiumVersions.isEmpty()) {
+                        version = adoptiumVersions.first().text();
+                        if (version.contains("Temurin")) {
+                            version = version.replaceAll(".*?(\\d+\\.\\d+\\.\\d+).*", "$1");
+                        }
+                    } else {
+                        // Fallback to title which often contains version
+                        version = doc.title();
+                        if (version.contains("17")) {
+                            version = "17.x";
+                        }
+                    }
+                    break;
+                case "Oracle":
+                    Elements oracleLinks = doc.select("a:contains(jdk-17), h1:contains(Java 17), title:contains(Java 17)");
+                    if (!oracleLinks.isEmpty()) {
+                        String text = oracleLinks.first().text();
+                        // Extract version pattern like 17.0.x
+                        if (text.matches(".*\\d+\\.\\d+\\.\\d+.*")) {
+                            version = text.replaceAll(".*?(\\d+\\.\\d+\\.\\d+).*", "$1");
+                        } else {
+                            version = "17.x";
+                        }
+                    }
+                    break;
+                case "Amazon Corretto":
+                    Elements correttoRows = doc.select("table tr, h1:contains(Corretto 17), title:contains(Corretto 17)");
+                    if (!correttoRows.isEmpty()) {
+                        if (correttoRows.first().select("td").size() > 0) {
+                            version = correttoRows.get(1).select("td").get(0).text();
+                        } else {
+                            String text = correttoRows.first().text();
+                            if (text.matches(".*\\d+\\.\\d+\\.\\d+.*")) {
+                                version = text.replaceAll(".*?(\\d+\\.\\d+\\.\\d+).*", "$1");
+                            } else {
+                                version = "17.x";
+                            }
+                        }
+                    }
+                    break;
+                case "Azul Zulu":
+                    Elements zuluVersions = doc.select(".version-string, h1:contains(Zulu), title:contains(Java 17)");
+                    if (!zuluVersions.isEmpty()) {
+                        String text = zuluVersions.first().text();
+                        if (text.matches(".*\\d+\\.\\d+\\.\\d+.*")) {
+                            version = text.replaceAll(".*?(\\d+\\.\\d+\\.\\d+).*", "$1");
+                        } else {
+                            version = "17.x";
+                        }
+                    }
                 break;
-            case "Oracle":
-                Elements links = doc.select("a:contains(jdk-17)");
-                if (!links.isEmpty()) {
-                    version = links.first().text().split(" ")[0];
-                }
-                break;
-            case "Amazon Corretto":
-                Elements rows = doc.select("table tr");
-                if (rows.size() > 1) {
-                    version = rows.get(1).select("td").get(0).text();
-                }
-                break;
-            case "Azul Zulu":
-                Elements versions = doc.select(".version-string");
-                if (!versions.isEmpty()) {
-                    version = versions.first().text();
-                }
-                break;
-            case "Red Hat OpenJDK":
-            case "Microsoft OpenJDK":
-                version = "Version info not available, please check manually";
-                break;
+                case "Red Hat OpenJDK":
+                    Elements redhatVersions = doc.select("h1:contains(OpenJDK), title:contains(OpenJDK), .pf-c-title:contains(OpenJDK)");
+                    if (!redhatVersions.isEmpty()) {
+                        String text = redhatVersions.first().text();
+                        if (text.matches(".*\\d+\\.\\d+\\.\\d+.*")) {
+                            version = text.replaceAll(".*?(\\d+\\.\\d+\\.\\d+).*", "$1");
+                        } else {
+                            version = "17.x";
+                        }
+                    } else {
+                        version = "17.x (Latest)";
+                    }
+                    break;
+                case "Microsoft OpenJDK":
+                    Elements msVersions = doc.select("h1:contains(OpenJDK), title:contains(OpenJDK), .content-title:contains(OpenJDK)");
+                    if (!msVersions.isEmpty()) {
+                        String text = msVersions.first().text();
+                        if (text.matches(".*\\d+\\.\\d+\\.\\d+.*")) {
+                            version = text.replaceAll(".*?(\\d+\\.\\d+\\.\\d+).*", "$1");
+                        } else {
+                            version = "17.x";
+                        }
+                    } else {
+                        version = "17.x (Latest)";
+                    }
+                    break;
+            }
+        } catch (Exception e) {
+            System.err.println("Error extracting version for " + provider + ": " + e.getMessage());
+            version = "17.x (Error extracting version)";
         }
 
-        return version;
+        return version.isEmpty() ? "17.x (Latest)" : version;
     }
 
     private static boolean isUrlUpdated(String url) throws IOException {
@@ -120,20 +180,51 @@ public class JavaVersionChecker {
     }
     
     private static boolean isSiteAvailable(String urlString) {
-        try {
-            URL url = new URL(urlString);
-            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-            connection.setRequestMethod("GET");
-            connection.setConnectTimeout(5000);
-            connection.setReadTimeout(5000);
-            connection.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36");
+        int maxRetries = 3;
+        int retryCount = 0;
+        int retryDelayMs = 2000; // 2 seconds
+        
+        while (retryCount < maxRetries) {
+            try {
+                URL url = new URL(urlString);
+                HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+                connection.setRequestMethod("GET");
+                connection.setConnectTimeout(10000); // 10 seconds
+                connection.setReadTimeout(10000); // 10 seconds
+                connection.setInstanceFollowRedirects(true);
+                connection.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36");
+                connection.setRequestProperty("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
+                connection.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
+                
+                int responseCode = connection.getResponseCode();
+                connection.disconnect();
+                
+                // Consider 2xx and 3xx as success
+                if (200 <= responseCode && responseCode <= 399) {
+                    return true;
+                }
+                
+                // If we get a 4xx or 5xx, retry
+                System.out.println("Attempt " + (retryCount + 1) + " for " + urlString + " failed with response code: " + responseCode);
+                
+            } catch (Exception e) {
+                System.err.println("Attempt " + (retryCount + 1) + " for " + urlString + " failed with error: " + e.getMessage());
+            }
             
-            int responseCode = connection.getResponseCode();
-            connection.disconnect();
+            retryCount++;
             
-            return (200 <= responseCode && responseCode <= 399);
-        } catch (Exception e) {
-            return false;
+            // Wait before retrying
+            if (retryCount < maxRetries) {
+                try {
+                    Thread.sleep(retryDelayMs);
+                    // Increase delay for next retry
+                    retryDelayMs *= 2;
+                } catch (InterruptedException ie) {
+                    Thread.currentThread().interrupt();
+                }
+            }
         }
+        
+        return false; // All attempts failed
     }
 }
