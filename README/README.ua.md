@@ -42,12 +42,12 @@ Minecraft розроблено з використанням мови прогр
 
 | Провайдер | Статус | Веб-сайт |
 |----------|--------|--------|
-| AdoptOpenJDK (Adoptium) | ![Статус](https://img.shields.io/badge/статус-перевірка-yellow) | [Завантажити](https://adoptium.net/download/) |
-| Oracle Java | ![Статус](https://img.shields.io/badge/статус-перевірка-yellow) | [Завантажити](https://www.oracle.com/java/technologies/) |
-| Amazon Corretto | ![Статус](https://img.shields.io/badge/статус-перевірка-yellow) | [Завантажити](https://aws.amazon.com/corretto/) |
-| Azul Zulu | ![Статус](https://img.shields.io/badge/статус-перевірка-yellow) | [Завантажити](https://www.azul.com/downloads/) |
-| Red Hat OpenJDK | ![Статус](https://img.shields.io/badge/статус-перевірка-yellow) | [Завантажити](https://developers.redhat.com/products/openjdk/overview) |
-| Microsoft OpenJDK | ![Статус](https://img.shields.io/badge/статус-перевірка-yellow) | [Завантажити](https://www.microsoft.com/openjdk) |
+| AdoptOpenJDK (Adoptium) | ![Статус](https://img.shields.io/badge/статус-доступний-brightgreen) | [Завантажити](https://adoptium.net/download/) |
+| Oracle Java | ![Статус](https://img.shields.io/badge/статус-доступний-brightgreen) | [Завантажити](https://www.oracle.com/java/technologies/) |
+| Amazon Corretto | ![Статус](https://img.shields.io/badge/статус-доступний-brightgreen) | [Завантажити](https://aws.amazon.com/corretto/) |
+| Azul Zulu | ![Статус](https://img.shields.io/badge/статус-доступний-brightgreen) | [Завантажити](https://www.azul.com/downloads/) |
+| Red Hat OpenJDK | ![Статус](https://img.shields.io/badge/статус-доступний-brightgreen) | [Завантажити](https://developers.redhat.com/products/openjdk/overview) |
+| Microsoft OpenJDK | ![Статус](https://img.shields.io/badge/статус-доступний-brightgreen) | [Завантажити](https://www.microsoft.com/openjdk) |
 
 </div>
 
