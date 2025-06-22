@@ -2,10 +2,10 @@
 
 # 🌟 Descarga de Java para Minecraft: Una Guía Completa 🌟
 
-[![GitHub stars](https://img.shields.io/github/stars/BANSAFAn/Java-On-Minecraft?style=social)](https://github.com/BANSAFAn/Java-On-Minecraft/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/BANSAFAn/Java-On-Minecraft?style=social)](https://github.com/BANSAFAn/Java-On-Minecraft/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/BANSAFAn/Java-On-Minecraft)](https://github.com/BANSAFAn/Java-On-Minecraft/issues)
-[![GitHub license](https://img.shields.io/github/license/BANSAFAn/Java-On-Minecraft)](https://github.com/BANSAFAn/Java-On-Minecraft/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/baneronetwo/Java-On-Minecraft?style=social)](https://github.com/baneronetwo/Java-On-Minecraft/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/baneronetwo/Java-On-Minecraft?style=social)](https://github.com/baneronetwo/Java-On-Minecraft/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/baneronetwo/Java-On-Minecraft)](https://github.com/baneronetwo/Java-On-Minecraft/issues)
+[![GitHub license](https://img.shields.io/github/license/baneronetwo/Java-On-Minecraft)](https://github.com/baneronetwo/Java-On-Minecraft/blob/main/LICENSE)
 
 <p>Tu guía esencial para encontrar e instalar la versión correcta de Java para Minecraft</p>
 
@@ -43,12 +43,12 @@ Minecraft está desarrollado utilizando el lenguaje de programación Java, lo qu
 
 | Proveedor | Estado | Sitio Web |
 |----------|--------|--------|
-| AdoptOpenJDK (Adoptium) | ![Estado](https://img.shields.io/badge/estado-verificando-yellow) | [Descargar](https://adoptium.net/download/) |
-| Oracle Java | ![Estado](https://img.shields.io/badge/estado-verificando-yellow) | [Descargar](https://www.oracle.com/java/technologies/) |
-| Amazon Corretto | ![Estado](https://img.shields.io/badge/estado-verificando-yellow) | [Descargar](https://aws.amazon.com/corretto/) |
-| Azul Zulu | ![Estado](https://img.shields.io/badge/estado-verificando-yellow) | [Descargar](https://www.azul.com/downloads/) |
-| Red Hat OpenJDK | ![Estado](https://img.shields.io/badge/estado-verificando-yellow) | [Descargar](https://developers.redhat.com/products/openjdk/overview) |
-| Microsoft OpenJDK | ![Estado](https://img.shields.io/badge/estado-verificando-yellow) | [Descargar](https://www.microsoft.com/openjdk) |
+| AdoptOpenJDK (Adoptium) | ![Estado](https://img.shields.io/badge/estado-disponible-brightgreen) | [Descargar](https://adoptium.net/download/) |
+| Oracle Java | ![Estado](https://img.shields.io/badge/estado-disponible-brightgreen) | [Descargar](https://www.oracle.com/java/technologies/) |
+| Amazon Corretto | ![Estado](https://img.shields.io/badge/estado-disponible-brightgreen) | [Descargar](https://aws.amazon.com/corretto/) |
+| Azul Zulu | ![Estado](https://img.shields.io/badge/estado-disponible-brightgreen) | [Descargar](https://www.azul.com/downloads/) |
+| Red Hat OpenJDK | ![Estado](https://img.shields.io/badge/estado-disponible-brightgreen) | [Descargar](https://developers.redhat.com/products/openjdk/overview) |
+| Microsoft OpenJDK | ![Estado](https://img.shields.io/badge/estado-disponible-brightgreen) | [Descargar](https://www.microsoft.com/openjdk) |
 
 </div>
 

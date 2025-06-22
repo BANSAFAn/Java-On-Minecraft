@@ -190,8 +190,8 @@ public class ReadmeUpdater {
             JSONObject providerInfo = javaStatus.getJSONObject(provider);
             
             // Check if site is available
-            if (providerInfo.has("available")) {
-                boolean isAvailable = providerInfo.getBoolean("available");
+            if (providerInfo.has("status")) {
+                String status = providerInfo.getString("status");
                 
                 // Check if there's an error message
                 String errorMessage = "";
@@ -199,7 +199,7 @@ public class ReadmeUpdater {
                     errorMessage = providerInfo.getString("error");
                 }
                 
-                if (isAvailable) {
+                if (status.equals("available")) {
                     return "![Status](https://img.shields.io/badge/Status-Available-brightgreen)";
                 } else if (!errorMessage.isEmpty()) {
                     // If there's a specific error, show it in the badge

@@ -1,20 +1,59 @@
-# Minecraft的Java下载指南：完整教程
+<div align="center">
 
-<kbd>[<img title="Ukraine" alt="Ukraine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1280px-Flag_of_Ukraine.svg.png" width="22">](README/README.ua.md)</kbd>
-<kbd>[<img title="Russia" alt="Russia" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/1280px-Flag_of_Russia.svg.png" width="22">](README/README.ru.md)</kbd>
+# 🌟 为 Minecraft 下载 Java：综合指南 🌟
 
-Java是运行Minecraft的必要组件，特别是对于较旧版本和模组游戏。本指南将帮助您找到适合您的Minecraft体验的正确Java版本。
+[![GitHub stars](https://img.shields.io/github/stars/baneronetwo/Java-On-Minecraft?style=social)](https://github.com/baneronetwo/Java-On-Minecraft/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/baneronetwo/Java-On-Minecraft?style=social)](https://github.com/baneronetwo/Java-On-Minecraft/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/baneronetwo/Java-On-Minecraft)](https://github.com/baneronetwo/Java-On-Minecraft/issues)
+[![GitHub license](https://img.shields.io/github/license/baneronetwo/Java-On-Minecraft)](https://github.com/baneronetwo/Java-On-Minecraft/blob/main/LICENSE)
+
+<p>您寻找和安装正确的 Minecraft Java 版本的必备指南</p>
+
+</div>
+
+## 🌐 可用语言
+
+<div align="center">
+
+<kbd>[<img title="English" alt="English" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" width="22">](../README.md)</kbd>
+<kbd>[<img title="Ukraine" alt="Ukraine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1280px-Flag_of_Ukraine.svg.png" width="22">](README.ua.md)</kbd>
+<kbd>[<img title="Russia" alt="Russia" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/1280px-Flag_of_Russia.svg.png" width="22">](README.ru.md)</kbd>
+<kbd>[<img title="Germany" alt="Germany" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/640px-Flag_of_Germany.svg.png" width="22">](README.de.md)</kbd>
+<kbd>[<img title="China" alt="China" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/800px-Flag_of_the_People%27s_Republic_of_China.svg.png" width="22">](README.zh.md)</kbd>
+<kbd>[<img title="Poland" alt="Poland" src="https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg" width="22">](README.pl.md)</kbd>
+
+</div>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="100" height="100"/>
+</div>
+
+## 📋 概述
+
+Java 是 Minecraft 的重要组成部分，尤其是对于旧版本和修改后的游戏玩法。本指南将帮助您找到适合您的 Minecraft 体验的正确 Java 版本。
 
 ## 为什么Minecraft需要Java？
 
 Minecraft是使用Java编程语言开发的，这意味着您需要在计算机上安装Java运行时环境（JRE）才能运行游戏。虽然较新版本的Minecraft已经包含了自己的Java运行时，但旧版本和许多模组实例仍然需要单独安装Java。
 
-## 推荐的Java下载来源
+## 🚀 推荐的Java下载来源
 
-以下是一些可靠的Minecraft Java下载来源：
+<div align="center">
+
+| 提供商 | 状态 | 网站 |
+|:--------:|:------:|:-------:|
+| AdoptOpenJDK (Adoptium) | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://adoptium.net/) |
+| Oracle Java | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://www.oracle.com/java/technologies/downloads/) |
+| Amazon Corretto | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://aws.amazon.com/corretto/) |
+| Azul Zulu | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://www.azul.com/downloads/?package=jdk) |
+| Red Hat OpenJDK | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://developers.redhat.com/products/openjdk/download) |
+| Microsoft OpenJDK | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://www.microsoft.com/openjdk) |
+
+</div>
+
+### 详细信息
 
 1. **AdoptOpenJDK (Adoptium)**
-   - 网站：[https://adoptium.net/download/](https://adoptium.net/download/)
    - 描述：一个社区驱动的、免费的OpenJDK版本，具有长期支持。
    - 推荐用户：一般用途，特别是较旧的Minecraft版本。
 

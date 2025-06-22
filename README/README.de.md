@@ -1,6 +1,51 @@
-# Java für Minecraft herunterladen: Ein umfassender Leitfaden
+<div align="center">
+
+# 🌟 Java für Minecraft herunterladen: Ein umfassender Leitfaden 🌟
+
+[![GitHub stars](https://img.shields.io/github/stars/baneronetwo/Java-On-Minecraft?style=social)](https://github.com/baneronetwo/Java-On-Minecraft/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/baneronetwo/Java-On-Minecraft?style=social)](https://github.com/baneronetwo/Java-On-Minecraft/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/baneronetwo/Java-On-Minecraft)](https://github.com/baneronetwo/Java-On-Minecraft/issues)
+[![GitHub license](https://img.shields.io/github/license/baneronetwo/Java-On-Minecraft)](https://github.com/baneronetwo/Java-On-Minecraft/blob/main/LICENSE)
+
+<p>Ihr unverzichtbarer Leitfaden zum Finden und Installieren der richtigen Java-Version für Minecraft</p>
+
+</div>
+
+## 🌐 Verfügbare Sprachen
+
+<div align="center">
+
+<kbd>[<img title="English" alt="English" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" width="22">](../README.md)</kbd>
+<kbd>[<img title="Ukraine" alt="Ukraine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1280px-Flag_of_Ukraine.svg.png" width="22">](README.ua.md)</kbd>
+<kbd>[<img title="Russia" alt="Russia" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/1280px-Flag_of_Russia.svg.png" width="22">](README.ru.md)</kbd>
+<kbd>[<img title="Germany" alt="Germany" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/640px-Flag_of_Germany.svg.png" width="22">](README.de.md)</kbd>
+<kbd>[<img title="China" alt="China" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/800px-Flag_of_the_People%27s_Republic_of_China.svg.png" width="22">](README.zh.md)</kbd>
+<kbd>[<img title="Poland" alt="Poland" src="https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg" width="22">](README.pl.md)</kbd>
+
+</div>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="100" height="100"/>
+</div>
+
+## 📋 Überblick
 
 Java ist eine wesentliche Komponente für Minecraft, insbesondere für ältere Versionen und modifiziertes Gameplay. Dieser Leitfaden hilft Ihnen, die richtige Java-Version für Ihr Minecraft-Erlebnis zu finden.
+
+## 🚀 Empfohlene Java-Download-Quellen
+
+<div align="center">
+
+| Anbieter | Status | Website |
+|:--------:|:------:|:-------:|
+| AdoptOpenJDK (Adoptium) | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Download](https://adoptium.net/) |
+| Oracle Java | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Download](https://www.oracle.com/java/technologies/downloads/) |
+| Amazon Corretto | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Download](https://aws.amazon.com/corretto/) |
+| Azul Zulu | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Download](https://www.azul.com/downloads/?package=jdk) |
+| Red Hat OpenJDK | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Download](https://developers.redhat.com/products/openjdk/download) |
+| Microsoft OpenJDK | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Download](https://www.microsoft.com/openjdk) |
+
+</div>
 
 ## Warum benötigen Sie Java für Minecraft?
 

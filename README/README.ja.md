@@ -2,10 +2,10 @@
 
 # 🌟 Minecraft用Javaのダウンロード：総合ガイド 🌟
 
-[![GitHub stars](https://img.shields.io/github/stars/BANSAFAn/Java-On-Minecraft?style=social)](https://github.com/BANSAFAn/Java-On-Minecraft/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/BANSAFAn/Java-On-Minecraft?style=social)](https://github.com/BANSAFAn/Java-On-Minecraft/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/BANSAFAn/Java-On-Minecraft)](https://github.com/BANSAFAn/Java-On-Minecraft/issues)
-[![GitHub license](https://img.shields.io/github/license/BANSAFAn/Java-On-Minecraft)](https://github.com/BANSAFAn/Java-On-Minecraft/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/baneronetwo/Java-On-Minecraft?style=social)](https://github.com/baneronetwo/Java-On-Minecraft/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/baneronetwo/Java-On-Minecraft?style=social)](https://github.com/baneronetwo/Java-On-Minecraft/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/baneronetwo/Java-On-Minecraft)](https://github.com/baneronetwo/Java-On-Minecraft/issues)
+[![GitHub license](https://img.shields.io/github/license/baneronetwo/Java-On-Minecraft)](https://github.com/baneronetwo/Java-On-Minecraft/blob/main/LICENSE)
 
 <p>Minecraftに適切なJavaバージョンを見つけてインストールするための必須ガイド</p>
 
@@ -46,12 +46,12 @@ MinecraftはJavaプログラミング言語を使用して開発されている�
 
 | プロバイダー | ステータス | ウェブサイト |
 |----------|--------|--------|
-| AdoptOpenJDK (Adoptium) | ![ステータス](https://img.shields.io/badge/ステータス-確認中-yellow) | [ダウンロード](https://adoptium.net/download/) |
-| Oracle Java | ![ステータス](https://img.shields.io/badge/ステータス-確認中-yellow) | [ダウンロード](https://www.oracle.com/java/technologies/) |
-| Amazon Corretto | ![ステータス](https://img.shields.io/badge/ステータス-確認中-yellow) | [ダウンロード](https://aws.amazon.com/corretto/) |
-| Azul Zulu | ![ステータス](https://img.shields.io/badge/ステータス-確認中-yellow) | [ダウンロード](https://www.azul.com/downloads/) |
-| Red Hat OpenJDK | ![ステータス](https://img.shields.io/badge/ステータス-確認中-yellow) | [ダウンロード](https://developers.redhat.com/products/openjdk/overview) |
-| Microsoft OpenJDK | ![ステータス](https://img.shields.io/badge/ステータス-確認中-yellow) | [ダウンロード](https://www.microsoft.com/openjdk) |
+| AdoptOpenJDK (Adoptium) | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen) | [ダウンロード](https://adoptium.net/download/) |
+| Oracle Java | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen) | [ダウンロード](https://www.oracle.com/java/technologies/) |
+| Amazon Corretto | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen) | [ダウンロード](https://aws.amazon.com/corretto/) |
+| Azul Zulu | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen) | [ダウンロード](https://www.azul.com/downloads/) |
+| Red Hat OpenJDK | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen) | [ダウンロード](https://developers.redhat.com/products/openjdk/overview) |
+| Microsoft OpenJDK | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen) | [ダウンロード](https://www.microsoft.com/openjdk) |
 
 </div>
 

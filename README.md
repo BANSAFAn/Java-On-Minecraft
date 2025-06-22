@@ -21,6 +21,11 @@
 <kbd>[<img title="Germany" alt="Germany" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/640px-Flag_of_Germany.svg.png" width="22">](README/README.de.md)</kbd>
 <kbd>[<img title="China" alt="China" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/800px-Flag_of_the_People%27s_Republic_of_China.svg.png" width="22">](README/README.zh.md)</kbd>
 <kbd>[<img title="Poland" alt="Poland" src="https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg" width="22">](README/README.pl.md)</kbd>
+<kbd>[<img title="Korea" alt="Korea" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png" width="22">](README/README.ko.md)</kbd>
+<kbd>[<img title="Japan" alt="Japan" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/1280px-Flag_of_Japan.svg.png" width="22">](README/README.ja.md)</kbd>
+<kbd>[<img title="Italy" alt="Italy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/1280px-Flag_of_Italy.svg.png" width="22">](README/README.it.md)</kbd>
+<kbd>[<img title="France" alt="France" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png" width="22">](README/README.fr.md)</kbd>
+<kbd>[<img title="Spain" alt="Spain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png" width="22">](README/README.es.md)</kbd>
 
 </div>
 
@@ -42,12 +47,12 @@ Minecraft is developed using the Java programming language, which means you need
 
 | Provider | Status | Website |
 |----------|--------|--------|
-| AdoptOpenJDK (Adoptium) | ![Status](https://img.shields.io/badge/status-checking-yellow) | [Download](https://adoptium.net/download/) |
-| Oracle Java | ![Status](https://img.shields.io/badge/status-checking-yellow) | [Download](https://www.oracle.com/java/technologies/) |
-| Amazon Corretto | ![Status](https://img.shields.io/badge/status-checking-yellow) | [Download](https://aws.amazon.com/corretto/) |
-| Azul Zulu | ![Status](https://img.shields.io/badge/status-checking-yellow) | [Download](https://www.azul.com/downloads/) |
-| Red Hat OpenJDK | ![Status](https://img.shields.io/badge/status-checking-yellow) | [Download](https://developers.redhat.com/products/openjdk/overview) |
-| Microsoft OpenJDK | ![Status](https://img.shields.io/badge/status-checking-yellow) | [Download](https://www.microsoft.com/openjdk) |
+| AdoptOpenJDK (Adoptium) | ![Status](https://img.shields.io/badge/Status-Available-brightgreen) | [Download](https://adoptium.net/download/) |
+| Oracle Java | ![Status](https://img.shields.io/badge/Status-Available-brightgreen) | [Download](https://www.oracle.com/java/technologies/) |
+| Amazon Corretto | ![Status](https://img.shields.io/badge/Status-Available-brightgreen) | [Download](https://aws.amazon.com/corretto/) |
+| Azul Zulu | ![Status](https://img.shields.io/badge/Status-Available-brightgreen) | [Download](https://www.azul.com/downloads/) |
+| Red Hat OpenJDK | ![Status](https://img.shields.io/badge/Status-Available-brightgreen) | [Download](https://developers.redhat.com/products/openjdk/overview) |
+| Microsoft OpenJDK | ![Status](https://img.shields.io/badge/Status-Available-brightgreen) | [Download](https://www.microsoft.com/openjdk) |
 
 </div>
 

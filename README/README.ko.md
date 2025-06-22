@@ -2,10 +2,10 @@
 
 # 🌟 마인크래프트용 자바 다운로드: 종합 가이드 🌟
 
-[![GitHub stars](https://img.shields.io/github/stars/BANSAFAn/Java-On-Minecraft?style=social)](https://github.com/BANSAFAn/Java-On-Minecraft/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/BANSAFAn/Java-On-Minecraft?style=social)](https://github.com/BANSAFAn/Java-On-Minecraft/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/BANSAFAn/Java-On-Minecraft)](https://github.com/BANSAFAn/Java-On-Minecraft/issues)
-[![GitHub license](https://img.shields.io/github/license/BANSAFAn/Java-On-Minecraft)](https://github.com/BANSAFAn/Java-On-Minecraft/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/baneronetwo/Java-On-Minecraft?style=social)](https://github.com/baneronetwo/Java-On-Minecraft/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/baneronetwo/Java-On-Minecraft?style=social)](https://github.com/baneronetwo/Java-On-Minecraft/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/baneronetwo/Java-On-Minecraft)](https://github.com/baneronetwo/Java-On-Minecraft/issues)
+[![GitHub license](https://img.shields.io/github/license/baneronetwo/Java-On-Minecraft)](https://github.com/baneronetwo/Java-On-Minecraft/blob/main/LICENSE)
 
 <p>마인크래프트에 적합한 자바 버전을 찾고 설치하기 위한 필수 가이드</p>
 
@@ -47,12 +47,12 @@
 
 | 제공업체 | 상태 | 웹사이트 |
 |----------|--------|--------|
-| AdoptOpenJDK (Adoptium) | ![상태](https://img.shields.io/badge/상태-확인_중-yellow) | [다운로드](https://adoptium.net/download/) |
-| Oracle Java | ![상태](https://img.shields.io/badge/상태-확인_중-yellow) | [다운로드](https://www.oracle.com/java/technologies/) |
-| Amazon Corretto | ![상태](https://img.shields.io/badge/상태-확인_중-yellow) | [다운로드](https://aws.amazon.com/corretto/) |
-| Azul Zulu | ![상태](https://img.shields.io/badge/상태-확인_중-yellow) | [다운로드](https://www.azul.com/downloads/) |
-| Red Hat OpenJDK | ![상태](https://img.shields.io/badge/상태-확인_중-yellow) | [다운로드](https://developers.redhat.com/products/openjdk/overview) |
-| Microsoft OpenJDK | ![상태](https://img.shields.io/badge/상태-확인_중-yellow) | [다운로드](https://www.microsoft.com/openjdk) |
+| AdoptOpenJDK (Adoptium) | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://adoptium.net/download/) |
+| Oracle Java | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://www.oracle.com/java/technologies/) |
+| Amazon Corretto | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://aws.amazon.com/corretto/) |
+| Azul Zulu | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://www.azul.com/downloads/) |
+| Red Hat OpenJDK | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://developers.redhat.com/products/openjdk/overview) |
+| Microsoft OpenJDK | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://www.microsoft.com/openjdk) |
 
 </div>
 
