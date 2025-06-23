@@ -43,10 +43,15 @@ Minecraft jest napisany w języku programowania Java, co oznacza, że potrzebuje
 | Dostawca | Status | Strona |
 |:--------:|:------:|:-------:|
 | AdoptOpenJDK (Adoptium) | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Pobierz](https://adoptium.net/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java Other ways to download Temurin
 | Oracle Java | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Pobierz](https://www.oracle.com/java/technologies/downloads/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.0.12
 | Amazon Corretto | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Pobierz](https://aws.amazon.com/corretto/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
 | Azul Zulu | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Pobierz](https://www.azul.com/downloads/?package=jdk) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x (Latest)
 | Red Hat OpenJDK | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Pobierz](https://developers.redhat.com/products/openjdk/download) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Unavailable-red) 
 | Microsoft OpenJDK | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Pobierz](https://www.microsoft.com/openjdk) |
 
 </div>
@@ -54,26 +59,32 @@ Minecraft jest napisany w języku programowania Java, co oznacza, że potrzebuje
 ### Szczegółowe informacje
 
 1. **AdoptOpenJDK (Adoptium)**
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java Other ways to download Temurin
    - Opis: Darmowa wersja OpenJDK tworzona przez społeczność, z długoterminowym wsparciem.
    - Zalecana dla: Ogólnego użytku, szczególnie dla starszych wersji Minecraft.
 
 2. **Oracle Java**
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.0.12
    - Opis: Oficjalne źródło Java SE (Standard Edition) od Oracle.
    - Uwaga: Wymaga konta Oracle do pobrania; należy uwzględnić warunki licencji do użytku komercyjnego.
 
 3. **Amazon Corretto**
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
    - Opis: Darmowa, wieloplatformowa, gotowa do produkcji dystrybucja OpenJDK.
    - Zalecana dla: Użytkowników preferujących długoterminowe wsparcie i optymalizacje Amazon.
 
 4. **Azul Zulu**
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x (Latest)
    - Opis: Kompilacje OpenJDK z otwartym kodem źródłowym z rozszerzonymi opcjami wsparcia.
    - Zalecana dla: Użytkowników szukających solidnych, dobrze wspieranych kompilacji.
 
 5. **Red Hat OpenJDK**
+   - Status: ![Status](https://img.shields.io/badge/Status-Unavailable-red) 
    - Opis: Kompilacja OpenJDK od Red Hat, znana ze stabilności i aktualizacji bezpieczeństwa.
    - Zalecana dla: Użytkowników zaznajomionych z produktami Red Hat lub pracujących w środowiskach korporacyjnych.
 
 6. **Microsoft Build of OpenJDK**
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
    - Opis: Dystrybucja OpenJDK od Microsoft, zoptymalizowana dla Azure, ale użyteczna wszędzie.
    - Zalecana dla: Użytkowników Windows lub zintegrowanych z ekosystemem Microsoft.
 
@@ -85,3 +96,6 @@ Potrzebna wersja Javy zależy od wersji Minecraft, którą uruchamiasz:
 - Dla starszych wersji: Generalnie zalecana jest Java 8
 
 Zawsze sprawdzaj szczególne wymagania dla modów lub paczek modów, których planujesz używać, ponieważ mogą one mieć własne wymagania dotyczące w
+
+
+*Status pobierania Java ostatnio zaktualizowany: 2025-06-23*

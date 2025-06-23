@@ -48,10 +48,15 @@
 | 제공업체 | 상태 | 웹사이트 |
 |----------|--------|--------|
 | AdoptOpenJDK (Adoptium) | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://adoptium.net/download/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java Other ways to download Temurin
 | Oracle Java | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://www.oracle.com/java/technologies/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.0.12
 | Amazon Corretto | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://aws.amazon.com/corretto/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
 | Azul Zulu | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://www.azul.com/downloads/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x (Latest)
 | Red Hat OpenJDK | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://developers.redhat.com/products/openjdk/overview) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Unavailable-red) 
 | Microsoft OpenJDK | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://www.microsoft.com/openjdk) |
 
 </div>
@@ -152,3 +157,6 @@ java -version # 설치 확인
 ⭐ **이 저장소가 도움이 되었다면 별표를 주는 것을 잊지 마세요!** ⭐
 
 </div>
+
+
+*Java 다운로드 상태 마지막 업데이트: 2025-06-23*

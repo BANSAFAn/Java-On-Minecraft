@@ -43,10 +43,15 @@ Minecraft是使用Java编程语言开发的，这意味着您需要在计算机�
 | 提供商 | 状态 | 网站 |
 |:--------:|:------:|:-------:|
 | AdoptOpenJDK (Adoptium) | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://adoptium.net/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java Other ways to download Temurin
 | Oracle Java | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://www.oracle.com/java/technologies/downloads/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.0.12
 | Amazon Corretto | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://aws.amazon.com/corretto/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
 | Azul Zulu | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://www.azul.com/downloads/?package=jdk) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x (Latest)
 | Red Hat OpenJDK | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://developers.redhat.com/products/openjdk/download) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Unavailable-red) 
 | Microsoft OpenJDK | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://www.microsoft.com/openjdk) |
 
 </div>
@@ -54,30 +59,36 @@ Minecraft是使用Java编程语言开发的，这意味着您需要在计算机�
 ### 详细信息
 
 1. **AdoptOpenJDK (Adoptium)**
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java Other ways to download Temurin
    - 描述：一个社区驱动的、免费的OpenJDK版本，具有长期支持。
    - 推荐用户：一般用途，特别是较旧的Minecraft版本。
 
 2. **Oracle Java**
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.0.12
    - 网站：[https://www.oracle.com/java/technologies/](https://www.oracle.com/java/technologies/)
    - 描述：Oracle提供的Java SE（标准版）官方来源。
    - 注意：下载需要Oracle账户；商业用途请考虑许可条款。
 
 3. **Amazon Corretto**
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
    - 网站：[https://aws.amazon.com/corretto/](https://aws.amazon.com/corretto/)
    - 描述：免费的、多平台、生产就绪的OpenJDK发行版。
    - 推荐用户：偏好亚马逊长期支持和优化的用户。
 
 4. **Azul Zulu**
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x (Latest)
    - 网站：[https://www.azul.com/downloads/](https://www.azul.com/downloads/)
    - 描述：具有增强支持选项的OpenJDK开源构建版本。
    - 推荐用户：寻找稳健、支持良好的构建版本的用户。
 
 5. **Red Hat OpenJDK**
+   - Status: ![Status](https://img.shields.io/badge/Status-Unavailable-red) 
    - 网站：[https://developers.redhat.com/products/openjdk/overview](https://developers.redhat.com/products/openjdk/overview)
    - 描述：Red Hat的OpenJDK构建版本，以其稳定性和安全更新而闻名。
    - 推荐用户：熟悉Red Hat产品或在企业环境中的用户。
 
 6. **Microsoft Build of OpenJDK**
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
    - 网站：[https://www.microsoft.com/openjdk](https://www.microsoft.com/openjdk)
    - 描述：微软的OpenJDK发行版，为Azure优化但可在任何地方使用。
    - 推荐用户：Windows用户或集成在微软生态系统中的用户。
@@ -99,3 +110,6 @@ Minecraft是使用Java编程语言开发的，这意味着您需要在计算机�
 4. 如果Minecraft启动器没有自动检测到，请配置启动器使用正确的Java版本。
 
 记住要保持Java安装更新以获得最佳性能和安全性。祝您游戏愉快！
+
+
+*Java下载状态最后更新: 2025-06-23*

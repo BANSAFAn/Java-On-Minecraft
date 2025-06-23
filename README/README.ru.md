@@ -43,10 +43,15 @@ Minecraft разработан на языке программирования 
 | Провайдер | Статус | Веб-сайт |
 |----------|--------|--------|
 | AdoptOpenJDK (Adoptium) | ![Статус](https://img.shields.io/badge/Статус-Доступен-brightgreen) | [Скачать](https://adoptium.net/download/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java Other ways to download Temurin
 | Oracle Java | ![Статус](https://img.shields.io/badge/Статус-Доступен-brightgreen) | [Скачать](https://www.oracle.com/java/technologies/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.0.12
 | Amazon Corretto | ![Статус](https://img.shields.io/badge/Статус-Доступен-brightgreen) | [Скачать](https://aws.amazon.com/corretto/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
 | Azul Zulu | ![Статус](https://img.shields.io/badge/Статус-Доступен-brightgreen) | [Скачать](https://www.azul.com/downloads/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x (Latest)
 | Red Hat OpenJDK | ![Статус](https://img.shields.io/badge/Статус-Доступен-brightgreen) | [Скачать](https://developers.redhat.com/products/openjdk/overview) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Unavailable-red) 
 | Microsoft OpenJDK | ![Статус](https://img.shields.io/badge/Статус-Доступен-brightgreen) | [Скачать](https://www.microsoft.com/openjdk) |
 
 </div>
@@ -56,31 +61,37 @@ Minecraft разработан на языке программирования 
 Вот некоторые надежные источники, где вы можете скачать Java для Minecraft:
 
     AdoptOpenJDK (Adoptium)
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java Other ways to download Temurin
         Сайт: https://adoptium.net/download/
         Описание: Комьюнити-драйвенная, бесплатная версия OpenJDK с долгосрочной поддержкой.
         Рекомендуется для: Общего использования, особенно для старых версий Minecraft.
 
     Oracle Java
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.0.12
         Сайт: https://www.oracle.com/java/technologies/
         Описание: Официальный источник для Java SE (Стандартное издание) от Oracle.
         Примечание: Требует учетной записи Oracle для загрузки; учитывайте условия лицензии для коммерческого использования.
 
     Amazon Corretto
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
         Сайт: https://aws.amazon.com/corretto/
         Описание: Безвозмездная, много платформенная, производственная готовая дистрибуция OpenJDK.
         Рекомендуется для: Пользователей, предпочитающих долгосрочную поддержку и оптимизации Amazon.
 
     Azul Zulu
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x (Latest)
         Сайт: https://www.azul.com/downloads/
         Описание: Открытые исходные коды OpenJDK с расширенными опциями поддержки.
         Рекомендуется для: Пользователей, ищущих надежные, хорошо поддерживаемые сборки.
 
     Red Hat OpenJDK
+   - Status: ![Status](https://img.shields.io/badge/Status-Unavailable-red) 
         Сайт: https://developers.redhat.com/products/openjdk/overview
         Описание: Сборка OpenJDK от Red Hat, известная своей стабильностью и обновлениями безопасности.
         Рекомендуется для: Пользователей, знакомых с продуктами Red Hat или тех, кто находится в корпоративных средах.
 
     Microsoft Build of OpenJDK
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
         Сайт: https://www.microsoft.com/openjdk
         Описание: Дистрибуция OpenJDK от Microsoft, оптимизированная для Azure, но пригодная для использования везде.
         Рекомендуется для: Пользователей Windows или тех, кто интегрирован с экосистемами Microsoft.
@@ -138,3 +149,6 @@ Minecraft разработан на языке программирования 
 <div align="center">
 <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2d/Plains_Grass_Block.png" width="50" height="50" alt="Minecraft Grass Block"/>
 </div>
+
+
+*Статус загрузки Java последний раз обновлялся: 2025-06-23*

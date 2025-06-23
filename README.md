@@ -51,7 +51,7 @@ Minecraft is developed using the Java programming language, which means you need
 | Oracle Java | ![Status](https://img.shields.io/badge/Status-Available-brightgreen) | [Download](https://www.oracle.com/java/technologies/) |
 | Amazon Corretto | ![Status](https://img.shields.io/badge/Status-Available-brightgreen) | [Download](https://aws.amazon.com/corretto/) |
 | Azul Zulu | ![Status](https://img.shields.io/badge/Status-Available-brightgreen) | [Download](https://www.azul.com/downloads/) |
-| Red Hat OpenJDK | ![Status](https://img.shields.io/badge/Status-Available-brightgreen) | [Download](https://developers.redhat.com/products/openjdk/overview) |
+| Red Hat OpenJDK | ![Status](https://img.shields.io/badge/Status-Unavailable-red) | [Download](https://developers.redhat.com/products/openjdk/overview) |
 | Microsoft OpenJDK | ![Status](https://img.shields.io/badge/Status-Available-brightgreen) | [Download](https://www.microsoft.com/openjdk) |
 
 </div>
@@ -144,3 +144,6 @@ If Minecraft is running slowly with your Java installation:
 <div align="center">
 <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2d/Plains_Grass_Block.png" width="50" height="50" alt="Minecraft Grass Block"/>
 </div>
+
+
+*Java download status last updated: 2025-06-23*

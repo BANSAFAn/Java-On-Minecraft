@@ -44,10 +44,15 @@ Minecraft está desarrollado utilizando el lenguaje de programación Java, lo qu
 | Proveedor | Estado | Sitio Web |
 |----------|--------|--------|
 | AdoptOpenJDK (Adoptium) | ![Estado](https://img.shields.io/badge/estado-disponible-brightgreen) | [Descargar](https://adoptium.net/download/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java Other ways to download Temurin
 | Oracle Java | ![Estado](https://img.shields.io/badge/estado-disponible-brightgreen) | [Descargar](https://www.oracle.com/java/technologies/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.0.12
 | Amazon Corretto | ![Estado](https://img.shields.io/badge/estado-disponible-brightgreen) | [Descargar](https://aws.amazon.com/corretto/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
 | Azul Zulu | ![Estado](https://img.shields.io/badge/estado-disponible-brightgreen) | [Descargar](https://www.azul.com/downloads/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x (Latest)
 | Red Hat OpenJDK | ![Estado](https://img.shields.io/badge/estado-disponible-brightgreen) | [Descargar](https://developers.redhat.com/products/openjdk/overview) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Unavailable-red) 
 | Microsoft OpenJDK | ![Estado](https://img.shields.io/badge/estado-disponible-brightgreen) | [Descargar](https://www.microsoft.com/openjdk) |
 
 </div>
@@ -148,3 +153,6 @@ Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICEN
 ⭐ **¡No olvides dar una estrella si encontraste útil este repositorio!** ⭐
 
 </div>
+
+
+*Estado de descarga de Java actualizado por última vez: 2025-06-23*

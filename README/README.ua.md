@@ -43,10 +43,15 @@ Minecraft розроблено з використанням мови прогр
 | Провайдер | Статус | Веб-сайт |
 |----------|--------|--------|
 | AdoptOpenJDK (Adoptium) | ![Статус](https://img.shields.io/badge/статус-доступний-brightgreen) | [Завантажити](https://adoptium.net/download/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java Other ways to download Temurin
 | Oracle Java | ![Статус](https://img.shields.io/badge/статус-доступний-brightgreen) | [Завантажити](https://www.oracle.com/java/technologies/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.0.12
 | Amazon Corretto | ![Статус](https://img.shields.io/badge/статус-доступний-brightgreen) | [Завантажити](https://aws.amazon.com/corretto/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
 | Azul Zulu | ![Статус](https://img.shields.io/badge/статус-доступний-brightgreen) | [Завантажити](https://www.azul.com/downloads/) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x (Latest)
 | Red Hat OpenJDK | ![Статус](https://img.shields.io/badge/статус-доступний-brightgreen) | [Завантажити](https://developers.redhat.com/products/openjdk/overview) |
+   - Status: ![Status](https://img.shields.io/badge/Status-Unavailable-red) 
 | Microsoft OpenJDK | ![Статус](https://img.shields.io/badge/статус-доступний-brightgreen) | [Завантажити](https://www.microsoft.com/openjdk) |
 
 </div>
@@ -56,31 +61,37 @@ Minecraft розроблено з використанням мови прогр
 Ось кілька надійних джерел, з яких можна завантажити Java для Minecraft:
 
 1. **AdoptOpenJDK (Adoptium)**
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java Other ways to download Temurin
    - Веб-сайт: [https://adoptium.net/download/](https://adoptium.net/download/)
    - Опис: Безкоштовна версія OpenJDK з відкритим кодом та довгостроковою підтримкою від спільноти.
    - Рекомендується для: Загального використання, особливо для старіших версій Minecraft.
 
 2. **Oracle Java**
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.0.12
    - Веб-сайт: [https://www.oracle.com/java/technologies/](https://www.oracle.com/java/technologies/)
    - Опис: Офіційний веб-сайт для Java SE (Standard Edition) від Oracle.
    - Примітка: Для завантаження потрібен обліковий запис Oracle; розгляньте умови ліцензування для комерційного використання.
 
 3. **Amazon Corretto**
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
    - Веб-сайт: [https://aws.amazon.com/corretto/](https://aws.amazon.com/corretto/)
    - Опис: Безкоштовний, багатоплатформовий дистрибутив OpenJDK, готовий до виробництва.
    - Рекомендується для: Користувачів, які надають перевагу довгостроковій підтримці та оптимізації від Amazon.
 
 4. **Azul Zulu**
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x (Latest)
    - Веб-сайт: [https://www.azul.com/downloads/](https://www.azul.com/downloads/)
    - Опис: Збірки OpenJDK з відкритим кодом із розширеними можливостями підтримки.
    - Рекомендується для: Користувачів, які шукають надійні збірки з хорошою підтримкою.
 
 5. **Red Hat OpenJDK**
+   - Status: ![Status](https://img.shields.io/badge/Status-Unavailable-red) 
    - Веб-сайт: [https://developers.redhat.com/products/openjdk/overview](https://developers.redhat.com/products/openjdk/overview)
    - Опис: Збірка OpenJDK від Red Hat, відома своєю стабільністю та оновленнями безпеки.
    - Рекомендується для: Користувачів, знайомих із продуктами Red Hat, або тих, хто працює в корпоративних середовищах.
 
 6. **Microsoft Build of OpenJDK**
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
    - Веб-сайт: [https://www.microsoft.com/openjdk](https://www.microsoft.com/openjdk)
    - Опис: Дистрибутив OpenJDK від Microsoft, оптимізований для Azure, але придатний для використання будь-де.
    - Рекомендується для: Користувачів Windows або тих, хто інтегрований з екосистемою Microsoft.
@@ -139,3 +150,6 @@ Minecraft розроблено з використанням мови прогр
 <div align="center">
 <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2d/Plains_Grass_Block.png" width="50" height="50" alt="Minecraft Grass Block"/>
 </div>
+
+
+*Статус завантаження Java останнє оновлення: 2025-06-23*

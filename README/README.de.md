@@ -57,31 +57,37 @@ Hier sind einige zuverlässige Quellen, von denen Sie Java für Minecraft herunt
 
 1. **AdoptOpenJDK (Adoptium)**
    - Website: [https://adoptium.net/download/](https://adoptium.net/download/)
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java Other ways to download Temurin
    - Beschreibung: Eine Community-gesteuerte, kostenlose Version von OpenJDK mit langfristiger Unterstützung.
    - Empfohlen für: Allgemeine Nutzung, besonders für ältere Minecraft-Versionen.
 
 2. **Oracle Java**
    - Website: [https://www.oracle.com/java/technologies/](https://www.oracle.com/java/technologies/)
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.0.12
    - Beschreibung: Die offizielle Quelle für Java SE (Standard Edition) von Oracle.
    - Hinweis: Benötigt ein Oracle-Konto zum Download; beachten Sie die Lizenzbedingungen für kommerzielle Nutzung.
 
 3. **Amazon Corretto**
    - Website: [https://aws.amazon.com/corretto/](https://aws.amazon.com/corretto/)
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
    - Beschreibung: Eine kostenlose, plattformübergreifende, produktionsreife Distribution von OpenJDK.
    - Empfohlen für: Benutzer, die Amazons langfristige Unterstützung und Optimierungen bevorzugen.
 
 4. **Azul Zulu**
    - Website: [https://www.azul.com/downloads/](https://www.azul.com/downloads/)
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x (Latest)
    - Beschreibung: Open-Source-Builds von OpenJDK mit erweiterten Supportoptionen.
    - Empfohlen für: Benutzer, die robuste, gut unterstützte Builds suchen.
 
 5. **Red Hat OpenJDK**
    - Website: [https://developers.redhat.com/products/openjdk/overview](https://developers.redhat.com/products/openjdk/overview)
+   - Status: ![Status](https://img.shields.io/badge/Status-Unavailable-red) 
    - Beschreibung: Red Hats Build von OpenJDK, bekannt für seine Stabilität und Sicherheitsupdates.
    - Empfohlen für: Benutzer, die mit Red Hat-Produkten vertraut sind oder in Unternehmensumgebungen arbeiten.
 
 6. **Microsoft Build of OpenJDK**
    - Website: [https://www.microsoft.com/openjdk](https://www.microsoft.com/openjdk)
+   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
    - Beschreibung: Microsofts Distribution von OpenJDK, optimiert für Azure, aber überall nutzbar.
    - Empfohlen für: Windows-Benutzer oder Benutzer, die in Microsoft-Ökosysteme integriert sind.
 
@@ -102,3 +108,6 @@ Die benötigte Java-Version hängt von der Minecraft-Version ab, die Sie verwend
 4. Konfigurieren Sie Ihren Minecraft-Launcher so, dass er die richtige Java-Version verwendet, wenn diese nicht automatisch erkannt wird.
 
 Denken Sie daran, Ihre Java-Installation für beste Leistung und Sicherheit aktuell zu halten. Viel Spaß beim Craften!
+
+
+*Java-Download-Status zuletzt aktualisiert: 2025-06-23*

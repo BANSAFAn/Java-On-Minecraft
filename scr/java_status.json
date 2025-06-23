@@ -1,0 +1,28 @@
+{
+  "Red Hat OpenJDK": {"status": "unavailable"},
+  "Azul Zulu": {
+    "last_checked": 1750679466730,
+    "version": "17.x (Latest)",
+    "status": "available"
+  },
+  "Adoptium": {
+    "last_checked": 1750679469289,
+    "version": "Other ways to download Temurin",
+    "status": "available"
+  },
+  "Amazon Corretto": {
+    "last_checked": 1750679472330,
+    "version": "17.x",
+    "status": "available"
+  },
+  "Oracle": {
+    "last_checked": 1750679474890,
+    "version": "17.0.12",
+    "status": "available"
+  },
+  "Microsoft OpenJDK": {
+    "last_checked": 1750679477249,
+    "version": "17.x",
+    "status": "available"
+  }
+}
