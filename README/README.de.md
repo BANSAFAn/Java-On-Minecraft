@@ -36,14 +36,14 @@ Java ist eine wesentliche Komponente für Minecraft, insbesondere für ältere V
 
 <div align="center">
 
-| Anbieter | Status | Website |
-|:--------:|:------:|:-------:|
-| AdoptOpenJDK (Adoptium) | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Download](https://adoptium.net/) |
-| Oracle Java | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Download](https://www.oracle.com/java/technologies/downloads/) |
-| Amazon Corretto | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Download](https://aws.amazon.com/corretto/) |
-| Azul Zulu | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Download](https://www.azul.com/downloads/?package=jdk) |
-| Red Hat OpenJDK | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Download](https://developers.redhat.com/products/openjdk/download) |
-| Microsoft OpenJDK | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [Download](https://www.microsoft.com/openjdk) |
+| Anbieter          | Status                                                                                  | Webseite                                                                    |
+|-------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| AdoptOpenJDK      | ![Status](https://img.shields.io/badge/Status-Verfügbar-brightgreen)                      | [Herunterladen](https://adoptium.net/temurin/releases/)                     |
+| Oracle Java       | ![Status](https://img.shields.io/badge/Status-Verfügbar-brightgreen)                      | [Herunterladen](https://www.oracle.com/java/technologies/downloads/)        |
+| Amazon Corretto   | ![Status](https://img.shields.io/badge/Status-Verfügbar-brightgreen)                      | [Herunterladen](https://aws.amazon.com/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc) |
+| Azul Zulu         | ![Status](https://img.shields.io/badge/Status-Verfügbar-brightgreen)                      | [Herunterladen](https://www.azul.com/downloads/?package=jdk)                |
+| Red Hat OpenJDK   | ![Status](https://img.shields.io/badge/Status-Nicht%20verfügbar-red)                      | [Herunterladen](https://developers.redhat.com/products/openjdk/download)    |
+| Microsoft OpenJDK | ![Status](https://img.shields.io/badge/Status-Verfügbar-brightgreen)                      | [Herunterladen](https://learn.microsoft.com/java/openjdk/download)          |
 
 </div>
 
@@ -107,7 +107,43 @@ Die benötigte Java-Version hängt von der Minecraft-Version ab, die Sie verwend
 3. Starten Sie nach der Installation Ihren Computer neu, um sicherzustellen, dass alle Änderungen wirksam werden.
 4. Konfigurieren Sie Ihren Minecraft-Launcher so, dass er die richtige Java-Version verwendet, wenn diese nicht automatisch erkannt wird.
 
-Denken Sie daran, Ihre Java-Installation für beste Leistung und Sicherheit aktuell zu halten. Viel Spaß beim Craften!
+Denken Sie daran, Ihre Java-Installation für eine bessere Leistung und Sicherheit auf dem neuesten Stand zu halten.
+
+## 🛠️ Fehlerbehebung bei häufigen Problemen
+
+### "Java nicht gefunden"-Fehler
+
+Wenn beim Starten von Minecraft der Fehler "Java nicht gefunden" auftritt:
+
+1. Stellen Sie sicher, dass Java korrekt installiert ist
+2. Stellen Sie sicher, dass die Java-Version den Anforderungen Ihrer Minecraft-Version entspricht
+3. Überprüfen Sie, ob die PATH-Umgebungsvariable das bin-Verzeichnis von Java enthält
+4. Versuchen Sie, Java neu zu installieren, wenn die Probleme weiterhin bestehen
+
+### Leistungsprobleme
+
+Wenn Minecraft mit Ihrer Java-Installation langsam läuft:
+
+1. Weisen Sie Minecraft in den Launcher-Einstellungen mehr Arbeitsspeicher zu
+2. Aktualisieren Sie Ihre Java-Installation auf die neueste kompatible Version
+3. Schließen Sie andere ressourcenintensive Anwendungen während des Spielens
+4. Erwägen Sie die Verwendung von Leistungsoptimierungsmods wie Optifine oder Sodium
+
+## 📊 Kompatibilitätstabelle
+
+| Minecraft-Version | Empfohlene Java-Version | Anmerkungen |
+|-------------------|-------------------------|-------|
+| 1.18 und neuer    | Java 17+                | Die neuesten Versionen erfordern neueres Java |
+| 1.17              | Java 16+                | Erste Version, die Java 16 erfordert |
+| 1.12 - 1.16.5     | Java 8                  | Die meisten Modpacks verwenden diese Versionen |
+| 1.7.10 - 1.11     | Java 8                  | Älter, aber immer noch beliebt für Mods |
+| Unter 1.7.10      | Java 8                  | Veraltete Versionen |
+
+## 🚀 Viel Spaß beim Spielen!
+
+<div align="center">
+<img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2d/Plains_Grass_Block.png" width="50" height="50" alt="Minecraft Grass Block"/>
+</div>
 
 
 *Java-Download-Status zuletzt aktualisiert: 2025-06-23*
