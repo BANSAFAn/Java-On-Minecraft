@@ -45,19 +45,14 @@
 
 <div align="center">
 
-| 제공업체 | 상태 | 웹사이트 |
-|----------|--------|--------|
-| AdoptOpenJDK (Adoptium) | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://adoptium.net/download/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java Other ways to download Temurin
-| Oracle Java | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://www.oracle.com/java/technologies/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.0.12
-| Amazon Corretto | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://aws.amazon.com/corretto/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
-| Azul Zulu | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://www.azul.com/downloads/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x (Latest)
-| Red Hat OpenJDK | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://developers.redhat.com/products/openjdk/overview) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Unavailable-red) 
-| Microsoft OpenJDK | ![상태](https://img.shields.io/badge/상태-이용_가능-brightgreen) | [다운로드](https://www.microsoft.com/openjdk) |
+| 공급업체          | 상태                                                                                        | 웹사이트                                                                    |
+|-------------------|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| AdoptOpenJDK      | ![상태](https://img.shields.io/badge/상태-사용%20가능-brightgreen)                        | [다운로드](https://adoptium.net/temurin/releases/)                           |
+| Oracle Java       | ![상태](https://img.shields.io/badge/상태-사용%20가능-brightgreen)                        | [다운로드](https://www.oracle.com/java/technologies/downloads/)              |
+| Amazon Corretto   | ![상태](https://img.shields.io/badge/상태-사용%20가능-brightgreen)                        | [다운로드](https://aws.amazon.com/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc) |
+| Azul Zulu         | ![상태](https://img.shields.io/badge/상태-사용%20가능-brightgreen)                        | [다운로드](https://www.azul.com/downloads/?package=jdk)                      |
+| Red Hat OpenJDK   | ![상태](https://img.shields.io/badge/상태-사용%20불가-red)                              | [다운로드](https://developers.redhat.com/products/openjdk/download)          |
+| Microsoft OpenJDK | ![상태](https://img.shields.io/badge/상태-사용%20가능-brightgreen)                        | [다운로드](https://learn.microsoft.com/java/openjdk/download)                |
 
 </div>
 

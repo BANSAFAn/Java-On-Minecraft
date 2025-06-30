@@ -44,19 +44,14 @@ MinecraftはJavaプログラミング言語を使用して開発されている�
 
 <div align="center">
 
-| プロバイダー | ステータス | ウェブサイト |
-|----------|--------|--------|
-| AdoptOpenJDK (Adoptium) | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen) | [ダウンロード](https://adoptium.net/download/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java Other ways to download Temurin
-| Oracle Java | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen) | [ダウンロード](https://www.oracle.com/java/technologies/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.0.12
-| Amazon Corretto | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen) | [ダウンロード](https://aws.amazon.com/corretto/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
-| Azul Zulu | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen) | [ダウンロード](https://www.azul.com/downloads/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x (Latest)
-| Red Hat OpenJDK | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen) | [ダウンロード](https://developers.redhat.com/products/openjdk/overview) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Unavailable-red) 
-| Microsoft OpenJDK | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen) | [ダウンロード](https://www.microsoft.com/openjdk) |
+| プロバイダー      | ステータス                                                                                      | ウェブサイト                                                                |
+|-------------------|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| AdoptOpenJDK      | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen)                     | [ダウンロード](https://adoptium.net/temurin/releases/)                      |
+| Oracle Java       | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen)                     | [ダウンロード](https://www.oracle.com/java/technologies/downloads/)         |
+| Amazon Corretto   | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen)                     | [ダウンロード](https://aws.amazon.com/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc) |
+| Azul Zulu         | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen)                     | [ダウンロード](https://www.azul.com/downloads/?package=jdk)                 |
+| Red Hat OpenJDK   | ![ステータス](https://img.shields.io/badge/ステータス-利用不可-red)                             | [ダウンロード](https://developers.redhat.com/products/openjdk/download)     |
+| Microsoft OpenJDK | ![ステータス](https://img.shields.io/badge/ステータス-利用可能-brightgreen)                     | [ダウンロード](https://learn.microsoft.com/java/openjdk/download)           |
 
 </div>
 

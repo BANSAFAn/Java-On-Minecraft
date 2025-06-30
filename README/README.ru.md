@@ -40,19 +40,14 @@ Minecraft разработан на языке программирования 
 
 <div align="center">
 
-| Провайдер | Статус | Веб-сайт |
-|----------|--------|--------|
-| AdoptOpenJDK (Adoptium) | ![Статус](https://img.shields.io/badge/Статус-Доступен-brightgreen) | [Скачать](https://adoptium.net/download/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java Other ways to download Temurin
-| Oracle Java | ![Статус](https://img.shields.io/badge/Статус-Доступен-brightgreen) | [Скачать](https://www.oracle.com/java/technologies/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.0.12
-| Amazon Corretto | ![Статус](https://img.shields.io/badge/Статус-Доступен-brightgreen) | [Скачать](https://aws.amazon.com/corretto/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
-| Azul Zulu | ![Статус](https://img.shields.io/badge/Статус-Доступен-brightgreen) | [Скачать](https://www.azul.com/downloads/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x (Latest)
-| Red Hat OpenJDK | ![Статус](https://img.shields.io/badge/Статус-Доступен-brightgreen) | [Скачать](https://developers.redhat.com/products/openjdk/overview) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Unavailable-red) 
-| Microsoft OpenJDK | ![Статус](https://img.shields.io/badge/Статус-Доступен-brightgreen) | [Скачать](https://www.microsoft.com/openjdk) |
+| Поставщик         | Статус                                                                                      | Веб-сайт                                                                    |
+|-------------------|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| AdoptOpenJDK      | ![Статус](https://img.shields.io/badge/Статус-Доступно-brightgreen)                         | [Скачать](https://adoptium.net/temurin/releases/)                           |
+| Oracle Java       | ![Статус](https://img.shields.io/badge/Статус-Доступно-brightgreen)                         | [Скачать](https://www.oracle.com/java/technologies/downloads/)              |
+| Amazon Corretto   | ![Статус](https://img.shields.io/badge/Статус-Доступно-brightgreen)                         | [Скачать](https://aws.amazon.com/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc) |
+| Azul Zulu         | ![Статус](https://img.shields.io/badge/Статус-Доступно-brightgreen)                         | [Скачать](https://www.azul.com/downloads/?package=jdk)                      |
+| Red Hat OpenJDK   | ![Статус](https://img.shields.io/badge/Статус-Недоступно-red)                               | [Скачать](https://developers.redhat.com/products/openjdk/download)          |
+| Microsoft OpenJDK | ![Статус](https://img.shields.io/badge/Статус-Доступно-brightgreen)                         | [Скачать](https://learn.microsoft.com/java/openjdk/download)                |
 
 </div>
 

@@ -40,19 +40,14 @@ Minecraft是使用Java编程语言开发的，这意味着您需要在计算机�
 
 <div align="center">
 
-| 提供商 | 状态 | 网站 |
-|:--------:|:------:|:-------:|
-| AdoptOpenJDK (Adoptium) | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://adoptium.net/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java Other ways to download Temurin
-| Oracle Java | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://www.oracle.com/java/technologies/downloads/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.0.12
-| Amazon Corretto | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://aws.amazon.com/corretto/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
-| Azul Zulu | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://www.azul.com/downloads/?package=jdk) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x (Latest)
-| Red Hat OpenJDK | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://developers.redhat.com/products/openjdk/download) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Unavailable-red) 
-| Microsoft OpenJDK | ![status](https://img.shields.io/badge/status-Available-brightgreen) | [下载](https://www.microsoft.com/openjdk) |
+| 提供商            | 状态                                                                                        | 网站                                                                                                                                            |
+|-------------------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| AdoptOpenJDK      | ![状态](https://img.shields.io/badge/状态-可用-brightgreen)                                 | [下载](https://adoptium.net/temurin/releases/)                                                                                                  |
+| Oracle Java       | ![状态](https://img.shields.io/badge/状态-可用-brightgreen)                                 | [下载](https://www.oracle.com/java/technologies/downloads/)                                                                                     |
+| Amazon Corretto   | ![状态](https://img.shields.io/badge/状态-可用-brightgreen)                                 | [下载](https://aws.amazon.com/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc)                |
+| Azul Zulu         | ![状态](https://img.shields.io/badge/状态-可用-brightgreen)                                 | [下载](https://www.azul.com/downloads/?package=jdk)                                                                                             |
+| Red Hat OpenJDK   | ![状态](https://img.shields.io/badge/状态-不可用-red)                                       | [下载](https://developers.redhat.com/products/openjdk/download)                                                                                 |
+| Microsoft OpenJDK | ![状态](https://img.shields.io/badge/状态-可用-brightgreen)                                 | [下载](https://learn.microsoft.com/java/openjdk/download)                                                                                       |
 
 </div>
 

@@ -42,19 +42,14 @@ Minecraft est développé en utilisant le langage de programmation Java, ce qui 
 
 <div align="center">
 
-| Fournisseur | Statut | Site Web |
-|----------|--------|--------|
-| AdoptOpenJDK (Adoptium) | ![Statut](https://img.shields.io/badge/statut-disponible-brightgreen) | [Télécharger](https://adoptium.net/download/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java Other ways to download Temurin
-| Oracle Java | ![Statut](https://img.shields.io/badge/statut-disponible-brightgreen) | [Télécharger](https://www.oracle.com/java/technologies/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.0.12
-| Amazon Corretto | ![Statut](https://img.shields.io/badge/statut-disponible-brightgreen) | [Télécharger](https://aws.amazon.com/corretto/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x
-| Azul Zulu | ![Statut](https://img.shields.io/badge/statut-disponible-brightgreen) | [Télécharger](https://www.azul.com/downloads/) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Available-brightgreen) Current version: Java 17.x (Latest)
-| Red Hat OpenJDK | ![Statut](https://img.shields.io/badge/statut-disponible-brightgreen) | [Télécharger](https://developers.redhat.com/products/openjdk/overview) |
-   - Status: ![Status](https://img.shields.io/badge/Status-Unavailable-red) 
-| Microsoft OpenJDK | ![Statut](https://img.shields.io/badge/statut-disponible-brightgreen) | [Télécharger](https://www.microsoft.com/openjdk) |
+| Fournisseur       | Statut                                                                                      | Site Web                                                                    |
+|-------------------|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| AdoptOpenJDK      | ![Statut](https.img.shields.io/badge/Statut-Disponible-brightgreen)                       | [Télécharger](https://adoptium.net/temurin/releases/)                       |
+| Oracle Java       | ![Statut](https.img.shields.io/badge/Statut-Disponible-brightgreen)                       | [Télécharger](https://www.oracle.com/java/technologies/downloads/)          |
+| Amazon Corretto   | ![Statut](https.img.shields.io/badge/Statut-Disponible-brightgreen)                       | [Télécharger](https://aws.amazon.com/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc) |
+| Azul Zulu         | ![Statut](https.img.shields.io/badge/Statut-Disponible-brightgreen)                       | [Télécharger](https://www.azul.com/downloads/?package=jdk)                  |
+| Red Hat OpenJDK   | ![Statut](https.img.shields.io/badge/Statut-Indisponible-red)                             | [Télécharger](https://developers.redhat.com/products/openjdk/download)      |
+| Microsoft OpenJDK | ![Statut](https.img.shields.io/badge/Statut-Disponible-brightgreen)                       | [Télécharger](https://learn.microsoft.com/java/openjdk/download)            |
 
 </div>
 
